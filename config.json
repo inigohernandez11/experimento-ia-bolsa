@@ -1,0 +1,53 @@
+{
+  "capital_inicial_eur": 1000,
+  "fecha_inicio": null,
+  "zona_horaria": "Europe/Madrid",
+  "reglas": {
+    "peso_maximo_por_accion": 0.20,
+    "importe_minimo_orden_eur": 20,
+    "max_ordenes_por_ejecucion": 5,
+    "margen_seguridad_compra": 0.01,
+    "segundos_espera_ejecucion": 90
+  },
+  "benchmark": {
+    "simbolo": "IWDA.AS",
+    "nombre": "iShares Core MSCI World (EUR)"
+  },
+  "universo": [
+    {"simbolo": "AAPL", "nombre": "Apple", "mercado": "US"},
+    {"simbolo": "MSFT", "nombre": "Microsoft", "mercado": "US"},
+    {"simbolo": "NVDA", "nombre": "NVIDIA", "mercado": "US"},
+    {"simbolo": "AMZN", "nombre": "Amazon", "mercado": "US"},
+    {"simbolo": "GOOGL", "nombre": "Alphabet (A)", "mercado": "US"},
+    {"simbolo": "META", "nombre": "Meta Platforms", "mercado": "US"},
+    {"simbolo": "AVGO", "nombre": "Broadcom", "mercado": "US"},
+    {"simbolo": "TSLA", "nombre": "Tesla", "mercado": "US"},
+    {"simbolo": "JPM", "nombre": "JPMorgan Chase", "mercado": "US"},
+    {"simbolo": "V", "nombre": "Visa", "mercado": "US"},
+    {"simbolo": "MA", "nombre": "Mastercard", "mercado": "US"},
+    {"simbolo": "LLY", "nombre": "Eli Lilly", "mercado": "US"},
+    {"simbolo": "NFLX", "nombre": "Netflix", "mercado": "US"},
+    {"simbolo": "COST", "nombre": "Costco", "mercado": "US"},
+    {"simbolo": "WMT", "nombre": "Walmart", "mercado": "US"},
+    {"simbolo": "XOM", "nombre": "Exxon Mobil", "mercado": "US"},
+    {"simbolo": "JNJ", "nombre": "Johnson & Johnson", "mercado": "US"},
+    {"simbolo": "PG", "nombre": "Procter & Gamble", "mercado": "US"},
+    {"simbolo": "AMD", "nombre": "AMD", "mercado": "US"},
+    {"simbolo": "ORCL", "nombre": "Oracle", "mercado": "US"},
+    {"simbolo": "SAP.DE", "nombre": "SAP", "mercado": "EU", "isin": "DE0007164600"},
+    {"simbolo": "SIE.DE", "nombre": "Siemens", "mercado": "EU", "isin": "DE0007236101"},
+    {"simbolo": "ALV.DE", "nombre": "Allianz", "mercado": "EU", "isin": "DE0008404005"},
+    {"simbolo": "DTE.DE", "nombre": "Deutsche Telekom", "mercado": "EU", "isin": "DE0005557508"},
+    {"simbolo": "ASML.AS", "nombre": "ASML", "mercado": "EU", "isin": "NL0010273215"},
+    {"simbolo": "MC.PA", "nombre": "LVMH", "mercado": "EU", "isin": "FR0000121014"},
+    {"simbolo": "OR.PA", "nombre": "L'Oréal", "mercado": "EU", "isin": "FR0000120321"},
+    {"simbolo": "TTE.PA", "nombre": "TotalEnergies", "mercado": "EU", "isin": "FR0000120271"},
+    {"simbolo": "SAN.PA", "nombre": "Sanofi", "mercado": "EU", "isin": "FR0000120578"},
+    {"simbolo": "AIR.PA", "nombre": "Airbus", "mercado": "EU", "isin": "NL0000235190"},
+    {"simbolo": "SU.PA", "nombre": "Schneider Electric", "mercado": "EU", "isin": "FR0000121972"},
+    {"simbolo": "IBE.MC", "nombre": "Iberdrola", "mercado": "EU", "isin": "ES0144580Y14"},
+    {"simbolo": "SAN.MC", "nombre": "Banco Santander", "mercado": "EU", "isin": "ES0113900J37"},
+    {"simbolo": "ITX.MC", "nombre": "Inditex", "mercado": "EU", "isin": "ES0148396007"},
+    {"simbolo": "BBVA.MC", "nombre": "BBVA", "mercado": "EU", "isin": "ES0113211835"}
+  ]
+}
